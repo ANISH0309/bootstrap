@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+body {
+	overflow-x: hidden;
+	font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+	padding-top: 20px;
+	background-color: #fff3f1;
+}
+
+#navbarNav {
+	margin: 0 20px;
+}
+
+.navbar-brand {
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+.nav-link {
+	margin-right: 20px;
+	font-size: 18px;
+}
+.nav-item {
+	z-index: 100000;
+}
+.navbar-nav {
+	margin-right: 50px;
+}
+.head-container {
+	background-color: #fff3f1;
+}
+
+.row {
+	height: 431px;
+}
+.col-sm-7 {
+	padding: 0 65px;
+	padding-top: 100px;
+}
+
+.col-sm-7 h1 {
+	margin-bottom: 50px;
+}
+
+.col-sm-5 img {
+	height: 300px;
+	margin-left: 50px;
+}
+
+.col-sm-5 {
+	align-self: flex-end;
+}
+
+.featured-container {
+	height: 600px;
+	background-color: white;
+}
+.custom-card {
+	background-color: #fff3f1;
+	border-radius: 15px;
+	border: none;
+	padding: 10px;
+}
+
+.list-group-item {
+	border: none;
+}
+
+.list-group-item-custom {
+	background-color: #fff3f1;
+}
+
+.tricks-container {
+	height: 475px;
+	background-color: #fff3f1;
+}
+
+.footer {
+	height: 200px;
+	background-color: #333;
+	color: white;
+}
+
+.footer .row {
+	height: 200px;
+}
+
+.underline-features:before {
+	content: "";
+	position: absolute;
+	left: 200px;
+	width: 18%;
+	border-bottom: 3px solid #ff866e;
+}
+
+.recipes-heading {
+	margin-top: 30px;
+}
+
+.tricks-heading {
+	padding-top: 40px;
+}
+
+.underline-tricks:before {
+	content: "";
+	position: absolute;
+	left: 200px;
+	width: 14%;
+	border-bottom: 3px solid #ff866e;
+}
+
+.recipes-row {
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+
+.tricks-row {
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+
+.tricks-img {
+	align-self: flex-start;
+}
+
+.col-sm-7-tricks {
+	padding: 0 17px;
+}
+
+.col-sm-3 {
+	margin-top: 50px;
+}
+
+.footer-p {
+	font-size: 13px;
+}
+
+/* img */
+
+#pastry {
+	width: 115px;
+	height: 115px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translate(20%, -50%);
+	z-index: 100;
+}
+
+#donut {
+	width: 115px;
+	height: 115px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translate(20%, -50%);
+	z-index: 100;
+}
+
+#ellipse {
+	position: absolute;
+	height: 320px;
+}
+
+#ellipse-navbar {
+	display: block;
+	position: absolute;
+	float: top;
+	left: 62%;
+	z-index: 100000;
+	transform: rotate(90deg);
+}
+.ellipse-navbar {
+	position: absolute;
+	transform: rotate(90deg);
+	height: 400px;
+	width: 138px;
+	left: 62%;
+	z-index: 1;
+	top: -21%;
+	/* right: 0; */
+	background-image: url("img/Ellipse\ 1.svg");
+}
+#tricks {
+	height: 260px;
+	width: 260px;
+	margin-left: 75px;
+}
+.ellipse-tricks {
+	position: absolute;
+	transform: rotate(180deg);
+	height: 400px;
+	width: 138px;
+	top: 105%;
+	right: 0;
+	background-image: url("img/Ellipse\ 1.svg");
+}
+#insta {
+	height: 30px;
+	width: 30px;
+}
+#fb {
+	margin-left: 20px;
+	height: 30px;
+	width: 30px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+	#landing_lady {
+		height: 270px;
+	}
+	.ellipse-tricks {
+		top: 200%;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.col-sm-7 {
+		padding-top: 50px;
+	}
+	.col-sm-7 h1 {
+		/* font-size: 25px; */
+	}
+	#landing_lady {
+		height: 230px;
+		margin-left: 10px;
+	}
+	.ellipse-navbar {
+		position: absolute;
+		transform: rotate(90deg);
+		height: 400px;
+		width: 138px;
+		left: 62%;
+		z-index: 1;
+		top: -21%;
+		/* right: 0; */
+		background-image: url("img/Ellipse\ 1.svg");
+	}
+}
+@media screen and (max-width: 786px) {
+	.col-sm-7 {
+		padding-top: 50px;
+	}
+}
