@@ -3,7 +3,9 @@ body {
 	overflow-x: hidden;
 	font-family: "Nunito", sans-serif;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 .navbar {
 	padding-top: 20px;
 	background-color: #fff3f1;
