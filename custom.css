@@ -1,372 +1,123 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
 body {
-	overflow-x: hidden;
 	font-family: "Nunito", sans-serif;
 }
+
 html {
 	scroll-behavior: smooth;
 }
+.light-color {
+	background-color: #fff3f1;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+/* Navbar */
 .navbar {
-	padding-top: 20px;
-	background-color: #fff3f1;
-}
-
-#navbarNav {
-	margin: 0 20px;
-}
-
-.navbar-brand {
-	margin-left: 20px;
-	font-size: 25px;
-}
-
-.nav-link {
-	margin-right: 20px;
-	font-size: 18px;
-}
-.nav-item {
-	z-index: 100000;
-}
-.navbar-nav {
-	margin-right: 50px;
-}
-.head-container {
-	background-color: #fff3f1;
-}
-
-.head-row {
-	height: 431px;
-}
-.col-sm-7 {
-	padding: 0 65px;
-	padding-top: 100px;
-}
-
-.col-sm-7 h1 {
-	margin-bottom: 50px;
-}
-
-.col-sm-5 img {
-	height: 300px;
-	margin-left: 50px;
-}
-
-.col-sm-5 {
-	align-self: flex-end;
-}
-
-.featured-container {
-	height: 600px;
-	background-color: white;
-}
-.custom-card {
-	background-color: #fff3f1;
-	border-radius: 15px;
-	border: none;
-	padding: 10px;
-	width: 24rem;
-}
-
-.list-group-item {
-	border: none;
-}
-
-.list-group-item-custom {
-	background-color: #fff3f1;
-}
-
-.tricks-container {
-	height: 475px;
-	background-color: #fff3f1;
-	margin-top: 15px;
-}
-
-.footer {
-	height: 200px;
-	background-color: #333;
-	color: white;
-}
-
-.footer .row {
-	height: 200px;
-}
-
-.underline-features:before {
-	content: "";
-	position: absolute;
-	left: 200px;
-	width: 18%;
-	border-bottom: 3px solid #ff866e;
-}
-
-.recipes-heading {
-	margin-top: 30px;
-}
-
-.tricks-heading {
-	padding-top: 40px;
-}
-
-.underline-tricks:before {
-	content: "";
-	position: absolute;
-	left: 200px;
-	width: 14%;
-	border-bottom: 3px solid #ff866e;
-}
-
-.recipes-row {
-	margin-top: 50px;
-	margin-bottom: 90px;
-}
-
-.tricks-row {
-	margin-top: 50px;
-	margin-bottom: 90px;
-	/* width: 500px; */
-}
-
-.tricks-img {
-	align-self: flex-start;
-}
-
-.col-sm-7-tricks {
-	padding: 0 17px;
-	width: 100px;
-}
-
-.col-sm-3 {
-	margin-top: 50px;
-}
-
-.footer-p {
-	font-size: 15px;
-}
-
-/* img */
-
-#pastry {
-	width: 115px;
-	height: 115px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	transform: translate(20%, -50%);
-	z-index: 100;
-}
-
-#donut {
-	width: 115px;
-	height: 115px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	transform: translate(20%, -50%);
-	z-index: 100;
-}
-
-#ellipse {
-	position: absolute;
-	height: 320px;
+	background-color: #ffedeb;
 }
 
 #ellipse-navbar {
 	position: absolute;
 	transform: translateY(-33%) rotate(90deg);
 	top: 0;
-	left: 65%;
+	left: 47%;
 	height: 320px;
+	z-index: 10000;
+}
+.nav-link {
+	color: black;
 }
 
-#tricks {
+/* Head */
+
+#landing_lady {
 	height: 300px;
-	width: 300px;
-	margin-left: 75px;
 }
-.ellipse-tricks {
+
+#head {
+	padding-top: 150px !important;
+}
+
+#ellipse-head {
 	position: absolute;
-	transform: rotate(180deg);
-	height: 400px;
-	width: 138px;
-	top: 105%;
-	right: 0;
-	background-image: url("img/Ellipse\ 1.svg");
+	top: 13%;
+	height: 350px;
 }
+
+/* Featured-Recipes */
+
+.card {
+	border-radius: 15px;
+}
+.list-group-item {
+	border: none;
+}
+.card-img > img {
+	width: 115px;
+	height: 115px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translate(20%, -50%);
+}
+
+h2 {
+	display: inline-block;
+	padding-bottom: 10px;
+	position: relative;
+}
+h2:before {
+	content: "";
+	position: absolute;
+	width: 80%;
+	height: 1px;
+	bottom: 0;
+	left: 40%;
+	border-bottom: 3px solid #f8a392;
+}
+/* Tricks */
 #ellipse-tricks {
 	position: absolute;
-	transform: rotate(180deg);
-	top: 110%;
-	/* left: 65%; */
+	transform: rotate(180deg) translateY(183%);
+	float: right;
 	right: 0;
+	z-index: 0;
 	height: 340px;
 }
 
-#insta {
-	height: 30px;
-	width: 30px;
-}
-#fb {
-	margin-left: 20px;
-	height: 30px;
-	width: 30px;
-}
-
-/* Media Queries */
-
-@media screen and (max-width: 1200px) {
-	#landing_lady {
-		height: 270px;
-	}
-	.ellipse-tricks {
-		top: 200%;
-	}
-}
-
+/* Media Query */
 @media screen and (max-width: 990px) {
-	.col-sm-7-head {
-		padding-top: 50px;
-	}
-	.col-sm-7-head h1 {
-		margin-bottom: 15px;
-		font-size: 37px;
-	}
-	.col-sm-7 h1 {
-		/* font-size: 25px; */
-	}
-	#landing_lady {
-		height: 230px;
-		margin-left: 10px;
-	}
-	.custom-card {
-		width: 20rem;
-		/* height: 100px; */
-	}
-	#tricks {
-		height: 250px;
-		width: 250px;
-		margin-left: 50px;
+	#ellipse-tricks {
+		transform: rotate(180deg) translateY(220%);
 	}
 }
 @media screen and (max-width: 786px) {
-	.col-sm-7-head h1 {
-		font-size: 33px;
-	}
-	.head-row {
-		height: 385px;
-	}
-	#landing_lady {
-		/* height: 200px; */
-		height: 150px;
-		/* margin-left: 0px; */
-	}
-	.custom-card {
-		width: 15rem;
-	}
-	#tricks {
-		height: 220px;
-		width: 220px;
-		margin-left: 0px;
-	}
-	#pastry {
-		width: 95px;
-		height: 95px;
-	}
-
-	#donut {
-		width: 95px;
-		height: 95px;
-	}
-	.featured-container {
-		height: 720px;
-		background-color: white;
-	}
-	.tricks-container {
-		height: 535px;
-		background-color: #fff3f1;
-		margin-top: 15px;
-	}
-	.col-sm-7-tricks h3 {
-		font-size: 22px;
-	}
-	.footer-p {
-		font-size: 11px;
-	}
-	#ellipse-navbar {
-		left: 57%;
-		height: 270px;
-	}
 	#ellipse-tricks {
-		top: 170%;
-		right: 0;
-		height: 280px;
-	}
-	.underline-features:before {
-		left: 100px;
-		width: 32%;
-	}
-	.underline-tricks:before {
-		left: 100px;
-		width: 23%;
+		transform: rotate(180deg) translateY(250%);
 	}
 }
-
 @media screen and (max-width: 576px) {
-	.col-sm-7-head {
-		margin-left: 10px;
-	}
-	#landing_lady {
-		margin-left: 37%;
-	}
 	#ellipse-navbar {
-		left: 53%;
 		height: 240px;
 	}
-	.custom-card {
-		width: 25rem;
-		margin-left: 30px;
-		margin-bottom: 35px;
-	}
-	.featured-container {
-		height: 1050px;
-	}
-	.tricks-container {
-		height: 600px;
-		background-color: #fff3f1;
-		margin-top: 15px;
-	}
-	.col-sm-7-tricks {
-		padding: 0 17px;
-		width: 550px;
-	}
-	#ellipse-tricks {
-		top: 230%;
-		right: 0;
-		height: 220px;
-	}
-	#tricks {
-		height: 160px;
-		width: 210px;
-		margin: auto;
-		width: 100%;
+	#tricks-img {
+		height: 185px;
 	}
 	#pastry {
-		width: 75px;
-		height: 95px;
+		height: 90px;
+		width: 90px;
 	}
 	#donut {
-		width: 75px;
-		height: 95px;
+		height: 90px;
+		width: 90px;
 	}
-	.footer {
-		height: 332px;
-		background-color: #333;
-		color: white;
-		padding: 10px 0;
+	#ellipse-navbar {
+		display: none;
 	}
-	.footer .row {
-		height: 250px;
-	}
-	.col-sm-3 {
-		margin-top: 0px;
+	#ellipse-tricks {
+		display: none;
 	}
 }

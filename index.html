@@ -1,172 +1,209 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
 
-    <link rel="stylesheet" href="custom.css">
+		<link rel="stylesheet" href="custom.css" />
 
-    <title>HomeBakes</title>
-  </head>
-  <body>
-    <div class="ellipse-navbar"></div>
-    <!-- Head-container -->
-    
-        <!-- Navbar -->
-        
-        <nav class="navbar nav-flex navbar-expand-lg navbar-light">
-          
-            <a class="navbar-brand" href="#">HomeBakes</a>
-            <img id= 'ellipse-navbar' src="img/Ellipse 1.svg" alt="">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              
-            <span class="navbar-toggler-icon"></span>
-            </button>
+		<title>HomeBakes</title>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<div class="container-fluid light-color">
+			<nav
+				class="navbar p-3 nav-flex navbar-expand-lg navbar-light fixed-top"
+				id="navbar"
+			>
+				<a class="navbar-brand" href="#">HomeBakes</a>
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link pr-5" href="#feature"
+								>Recipes <span class="sr-only">(current)</span></a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pr-5" href="#trick">Tricks</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link pr-5" href="#">Shop</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="ellipse-navbar"></div>
+		<img id="ellipse-navbar" src="img/Ellipse 1.svg" alt="" />
+
+		<!-- Head-container -->
+		<div class="container-fluid light-color mb-5">
+			<img id="ellipse-head" src="img/Ellipse 1.svg" alt="" />
+			<div class="container" id="head">
+				<div class="row">
+					<div class="col-md-7">
+						<h1 class="p-3" id="h1-head">
+							Delicious and Easy Homemade Recipes that makes you Rise & Shine
+						</h1>
+						<p class="lead p-3">Don't forget to check out our tricks section</p>
+					</div>
+					<div class="col-md-5 mt-auto">
+						<img
+							id="landing_lady"
+							class="img-fluid"
+							src="img/landing_lady.svg"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Featured-Recipes -->
+		<div class="container mb-5" id="feature">
+			<div class="row">
+				<h2 class="mb-5 pl-4">Featured Recipes</h2>
+			</div>
             
-            <div class="collapse navbar-collapse" id="navbarNav">
-              
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                <a class="nav-link" href="#feature">Recipes <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#trickss">Tricks</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-                </li>
-            </ul>
-            </div>
-        </nav>
-        
-      <!-- Head-Section-->
+            
+			<div class="row">
+				<div class="col-md-6">
+					<div class="card light-color mb-5">
+						<div class="card-body">
+                            <div class="card-img">
+                                <img id='pastry' src="img/pastry.svg" alt="#">
+                            </div>
+							<h5 class="card-title">Chocolate Cake</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Serves 3-5</h6>
+							<p class="card-text">
+								<ul class="list-group list-group-flush">
+                                    <li class="list-group-item light-color list-group-item-custom">1. Take a bowl and mix flour, cocoa powder, milk powder and lorem ipsum.</li>                        
+                                    <li class="list-group-item list-group-item-custom light-color">2. Take a bowl and mix flour, lorem ipsu, milk powder and lorem ipsum dolor sitamet random text here</li>
+                                    <li class="list-group-item list-group-item-custom light-color">3. Take a bowl and mix flour, lorem ipsu, milk powder and lorem ipsum dolor sit amet random text here.Add Some more points here</li>
+                                    <li class="list-group-item list-group-item-custom light-color">4. Enjoy your Wholesome cake and enjoy with your family.</li>
+                                  </ul>
+							</p>
+						</div>
+					</div>
+				</div>
 
-    <section class="head-container">
-      <img id= 'ellipse' src="img/Ellipse 1.svg" alt="">
-    <div class="container">
-        <div class="row head-row">
-            <div class="col-sm-7 col-sm-7-head">
-                <h1>Delicious and Easy Homemade Recipes that makes you Rise & Shine</h1>
-                <h6>Don't forget to check out our tricks section</h5>                
-            </div>
+                <div class="col-md-6">
+					<div class="card light-color">
+						<div class="card-body">
+                            <div class="card-img">
+                                <img id='pastry' src="img/donut.svg" alt="#">
+                            </div>
+							<h5 class="card-title">Creme Donuts</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Serves 3-5</h6>
+							<p class="card-text">
+								<ul class="list-group list-group-flush">
+                                    <li class="list-group-item light-color list-group-item-custom">1. Take a bowl and mix flour, cocoa powder, milk powder and lorem ipsum.</li>                        
+                                    <li class="list-group-item list-group-item-custom light-color">2. Take a bowl and mix flour, lorem ipsu, milk powder and lorem ipsum dolor sitamet random text here</li>
+                                    <li class="list-group-item list-group-item-custom light-color">3. Take a bowl and mix flour, lorem ipsu, milk powder and lorem ipsum dolor sit amet random text here.Add Some more points here</li>
+                                    <li class="list-group-item list-group-item-custom light-color">4. Enjoy your Wholesome cake</li>
+                                  </ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Sneaky Tricks -->
+		<div class="container-fluid light-color" id="trick">
+			<div class="container">
+					<div class="row">
+						<h2 class="mb-5 pl-4 mt-5">Sneaky Tricks!</h2>
+					</div>
+					<div class="row">
+					<div class="col-md-7">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item light-color list-group-item-custom"><h3>1. Add this with this to get this</h3>
+								Take a bowl and mix flour, cocoa powder,milk powder and lorem ipsum tthis helps in thtis process to do this.
+							</li>                        
+							<li class="list-group-item list-group-item-custom light-color"><h3>2. Don't add excess food coloring</h3>
+								Take a bowl and mix flour, cocoa powder,milk powder and lorem ipsum tthis helps in thtis process to do this. add some more text here and let it flow</li>
+							<li class="list-group-item list-group-item-custom light-color"> <h3>3. Always check your timers</h3>Justt a simple tip always smile and cook</li>
+						</ul>
+					</div>
+					<div class="col-md-5">
+						<img id='tricks-img' class="ml-4 mt-5 img-fluid" src="img/sneaky_tricks_illustration.svg" alt="">
+					</div>
+				</div>
+			</div>
+			<img id='ellipse-tricks' src="img/Ellipse 1.svg" alt="">
+		</div>
 
-            <div class="col-sm-5">
-            <img id='landing_lady' src="img/landing_lady.svg">
-            </div>
-        </div>
-    </div>
-    </section>
-
-    <!-- Featured-Recipes-Section -->
-
-    <section class="featured-container" id='feature'>
-    <div class="container">
-        <h2 class="recipes-heading">Featured Recipes</h2>  
-        <div class="underline-features"></div>
-        <div class="row recipes-row">
-            <div class="col-sm-6">
-                <div class="card custom-card">
-                    <div class="card-body">
-                      <img id='pastry' src="img/pastry.svg" alt="">
-                      <h4 class="card-title">Chocolate Cake</h4>
-                      <h6 style="font-size: 14px;">Serves 3-5</h6>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item list-group-item-custom">1. Take a bowl and mix flour, cocoa powder, milk powder and lorem ipsum.</li>                        
-                      <li class="list-group-item list-group-item-custom">2. Take a bowl and mix flour, lorem ipsu, milk powder and lorem ipsum dolor sitamet random text here</li>
-                      <li class="list-group-item list-group-item-custom">3. Take a bowl and mix flour, lorem ipsu, milk powder and lorem ipsum dolor sit amet random text here.Add Some more points here</li>
-                      <li class="list-group-item list-group-item-custom">4. Enjoy your Wholesome cake and enjoy with your family.</li>
-                    </ul>              
-                </div>      
-            </div>
-
-            <div class="col-sm-6">
-                <div class="card custom-card">
-                    <div class="card-body">
-                      <img id='donut' src="img/donut.svg" alt="">
-                      <h4 class="card-title">Creme Donuts</h4>
-                      <h6 style="font-size: 14px;">Serves 3-5</h6>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item list-group-item-custom">1. Take a bowl and mix flour, cocoa powder, milk powder and lorem ipsum.</li>                        
-                      <li class="list-group-item list-group-item-custom">2. Take a bowl and mix flour, lorem ipsu, milk powder and lorem ipsum dolor sitamet random text here</li>
-                      <li class="list-group-item list-group-item-custom">3. Take a bowl and mix flour, lorem ipsu, milk powder and lorem ipsum dolor sit amet random text here.Add Some more points here</li>
-                      <li class="list-group-item list-group-item-custom">4. Enjoy your Wholesome cake and enjoy with your family.</li>
-                    </ul>              
-                </div>      
-            </div>
-        </div>
-    </div>
-  </section>
-
-    <!-- Tricks-section -->
-    
-    <section class="tricks-container" id='trickss'>
-      <!-- <div class="ellipse-tricks"></div> -->
-      
-      <img id= 'ellipse-tricks' src="img/Ellipse 1.svg" alt="">
-      <div class="container">
-        
-        <h2 class="tricks-heading">Sneaky Tricks!</h2>
-        <div class="underline-tricks"></div>
-        <div class="row tricks-row">
-          <div class="col-sm-7 col-sm-7-tricks">
-              <h3>1. Add this with this to get this</h3>
-
-              <p>Take a bowl and mix flour, cocoa powder,milk powder and lorem ipsum tthis helps in thtis process to do this.</p>
-
-              <h3>2. Don't add excess food coloring</h3>
-
-              <p>Take a bowl and mix flour, cocoa powder,milk powder and lorem ipsum tthis helps in thtis process to do this. add some more text here and let it flow</p>
-
-              <h3>3. Always check your timers</h3>
-
-              <p>Justt a simple tip always smile and cook</p>
-          </div>
-
-          <div class="col-sm-5 tricks-img">
-          <img id='tricks' src="img/sneaky_tricks_illustration.svg">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-        <div class="col-sm-3">
-          <h4>About</h4>
-          <p class="footer-p">Hello, i am John Mathews, owner of HomeBakes, NY. Contact me for business and bulk orders.</p>
-        </div>
-        <div class="col-sm-3">
-          <h4>Address</h4>
-          <p class="footer-p">21 Bleecker Street,
-            Brooklyn,
-          New York.</p>
-        </div>
-        <div class="col-sm-3">
-          <h4>Contact</h4>
-          <p class="footer-p">Johnmath@business.com</p>
-          <p class="footer-p">+129087 9087</p>
-        </div>
-        <div class="col-sm-3">
-          <h4>Socials</h4>
-          <img id='insta' src="img/insta.svg" alt="">
-          <img id='fb' src="img/fb.svg" alt="">
-        </div>
-      </div>
-      </div>
-  </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+		<!-- Footer -->
+		<div class="container-fluid text-light bg-dark">
+			<div class="container">
+				<div class="row">
+					<div class="col m-4">
+						<h4>About</h4>
+						<p>Hello, i am John Mathews, owner of HomeBakes, NY. Contact me for business and bulk orders.</p>
+					</div>
+					<div class="col m-4">
+						<h4>Address</h4>
+						<address>
+							21 Bleecker Street,Brooklyn,New York.
+						</address>
+					</div>
+					<div class="col m-4">
+						<h4>Contact</h4>
+						<p>Johnmath@business.com</p>
+						<p>+12 9087 9087</p>
+					</div>
+					<div class="col m-4">
+						<h4>Socials</h4>
+						<a href="#">
+							<img src="img/insta.svg" alt="">
+						</a>
+						<a class="ml-3" href="#">
+							<img src="img/fb.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
